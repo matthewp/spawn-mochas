@@ -1,6 +1,6 @@
 {
   "name": "spawn-mochas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spawn mocha processes",
   "main": "index.js",
   "dependencies": {
