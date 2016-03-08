@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Spawn mocha processes",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "cross-spawn-async": "^2.1.9",
+    "mocha": "^2.4.5"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "exit 1"
