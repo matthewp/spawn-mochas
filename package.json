@@ -1,0 +1,21 @@
+{
+  "name": "spawn-mochas",
+  "version": "1.0.0",
+  "description": "Spawn mocha processes",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewp/spawn-mochas.git"
+  },
+  "author": "Matthew Phillips",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/matthewp/spawn-mochas/issues"
+  },
+  "homepage": "https://github.com/matthewp/spawn-mochas#readme"
+}
