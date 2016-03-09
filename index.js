@@ -3,7 +3,14 @@ var path = require("path");
 var mochaPath = path.join(path.dirname(require.resolve("mocha")),
 						  "bin", "mocha");
 
-module.exports = runTests;
+module.exports = function(tests, root){
+  if(root) {
+    tests = tests.map(function(name){
+      return path.join(root, name);
+    });
+  }
+  return runTests(tests);
+};
 
 function runTests(tests) {
   var pth = tests.shift();
