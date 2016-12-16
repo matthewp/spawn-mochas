@@ -1,5 +1,5 @@
 {
-  "name": "spawn-mochas-next",
+  "name": "spawn-mochas",
   "version": "1.1.1",
   "description": "Spawn mocha processes",
   "main": "index.js",
