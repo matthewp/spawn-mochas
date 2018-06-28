@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "cross-spawn-async": "^2.1.9",
-    "mocha": "^2.4.5"
+    "mocha": "^5.2.0"
   },
   "devDependencies": {},
   "scripts": {
